@@ -24,3 +24,5 @@ Basic Example for MQTT using mosquoitto broker
 Brocker `test_sensor_data` use as topic and send the -m `message` to relevant client.
 
 1st terminal show the message as `sasanka` every time execute the second command in second terminal. *MQTT successfully connected*.
+
+*If you want to access broker directly without having any administrator, add the [brocker.conf](https://github.com/sasankaweera123/mqtt_mosquitto_ex/blob/main/broker.conf) in the `C:\Program Files\mosquitto` then run the the command `mosquitto -v -c brocker.conf`.*
