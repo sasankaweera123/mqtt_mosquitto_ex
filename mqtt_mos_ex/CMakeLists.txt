@@ -10,7 +10,8 @@ set(MOSQUITTO_DIR "C:/Program Files/mosquitto")
 include_directories(${MOSQUITTO_DIR}/devel)
 
 add_executable(mqtt_mos_ex main.cpp
-        mqtt_sub.cpp
+        mqtt_sub_pub.cpp
+        mqtt_sub_pub.h
 )
 
 # Link the Mosquitto dynamic library to the executable
