@@ -17,7 +17,7 @@ Basic Example for MQTT using mosquoitto broker
 
 *MQTT use Publisher/Subscribe*
 
-- open up new cmd and run a command: `mosquitto_pub -t test_sensor_data -h localhost` : Client Subscribe to the data.
+- open up new cmd and run a command: `mosquitto_sub -t test_sensor_data -h localhost` : Client Subscribe to the data.
   
 - Open up new cmd and run a command: `mosquitto_pub -t test_sensor_data -h localhost -m "sasanka"` : Client publish data.
 
